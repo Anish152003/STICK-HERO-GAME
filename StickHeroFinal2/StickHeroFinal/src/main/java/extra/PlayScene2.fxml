@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="619.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../bg2.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="newRect0" arcHeight="5.0" arcWidth="5.0" height="170.0" layoutX="50.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <ImageView fitHeight="43.0" fitWidth="37.0" layoutX="59.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../char21.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="newRect1" arcHeight="5.0" arcWidth="5.0" height="170.0" layoutX="157.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="newRect2" arcHeight="5.0" arcWidth="5.0" height="170.0" layoutX="315.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Rectangle fx:id="newRect3" arcHeight="5.0" arcWidth="5.0" height="170.0" layoutX="465.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+   </children>
+</AnchorPane>
